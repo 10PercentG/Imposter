@@ -1,0 +1,95 @@
+/* Overall page styling for a gamish look */
+body {
+    background: #000;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Responsive container styling */
+  .container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #fff;
+    margin: 10px; /* extra margin for mobile spacing */
+  }
+  
+  /* Retro text styling for headers */
+  h1, h2 {
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  /* Override form and button styles for consistency */
+  .form-control, .btn {
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  /* Customized button colors for a game-like palette */
+  .btn-primary {
+    background-color: #1a73e8;
+    border-color: #1a73e8;
+  }
+  
+  .btn-success {
+    background-color: #34a853;
+    border-color: #34a853;
+  }
+  
+  .btn-danger {
+    background-color: #ea4335;
+    border-color: #ea4335;
+  }
+  
+  /* Chat box with a subtle, futuristic overlay */
+  #chat {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  
+  /* Media queries for responsiveness */
+  
+  /* For screens up to 768px (tablets and small desktops) */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+      margin: 5px;
+    }
+    
+    h1, h2 {
+      font-size: 1.8em;
+    }
+    
+    .btn {
+      font-size: 0.9em;
+      padding: 8px 12px;
+    }
+    
+    #chat {
+      height: 220px;
+    }
+  }
+  
+  /* For screens up to 480px (mobile devices) */
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px;
+      margin: 5px;
+    }
+    
+    h1, h2 {
+      font-size: 1.5em;
+    }
+    
+    .btn {
+      font-size: 0.8em;
+      padding: 6px 10px;
+    }
+    
+    #chat {
+      height: 180px;
+    }
+  }
+  
